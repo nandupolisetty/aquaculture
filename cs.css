@@ -1,0 +1,172 @@
+body{
+    background-image: url(background.jpg);
+    background-color: white;
+    background-position: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+@media screen and (min-width: 480px) {
+    body {
+      background-color: white;
+    }
+    header{
+        background-color: transparent;
+    }
+
+  }
+  
+header{
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+    height: 100px;
+}
+h2{
+    font-size: 35px;
+}
+.logo{
+  display: flex;
+}
+.navbar{
+
+    text-align: center;
+display: flex;
+align-items: center;
+margin-left: 30%;
+}
+a{
+color: black;
+padding: 10px;
+text-decoration: none;
+}
+.grid{
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+}
+.i{
+    border-radius: 50px;
+}
+pre{
+    font-size: 16px;
+
+}
+.z{
+    color: blue;
+}
+footer{
+    background-color: transparent;
+    background-position-x: center;
+    background-size: 400px;
+    height: 100px;
+}
+input{
+    width: 400px;
+    height: 30px;
+}
+.a{
+    background-color: skyblue;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.a:hover{
+    background-color: brown;
+}
+#about
+{
+    color: black;
+    font-size: larger;
+}
+#service{
+    color: black;
+    font-size: large;
+}
+.gridiiii{
+    
+    display: grid;
+    grid-template-rows: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 10px;
+
+}
+.itemp,.itemq,.itemr,.items{
+    background-color: skyblue;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    
+}
+.mg{
+    border-radius: 50%;
+    padding:3px;
+    margin-left: -10px;
+}
+#carousel {
+    width: 100%;
+    height:750px;
+    background-color: black;
+    overflow: auto auto;
+    white-space: nowrap;
+}
+#carousel .slide {
+    display: inline-block;
+}
+h2{
+    color: black;
+}
+.btn:hover{
+    background-color: brown;
+
+}
+marquee{
+    color: #ff0000;
+}
+.m2{
+    color: black;
+    font-size: 50px;
+}
+.b{
+    color: black;
+}
+#h4{
+    color: black;
+}
+#faq{
+    color: black;
+}
+#neww{
+    font-size: 30px;
+}
+#hlo{
+    font-size: 25px;
+}
+#header{
+    font-size: 50px;
+}
+.grid2{
+
+    display: grid;
+ grid-template-columns: auto auto auto;
+ width: 100%;
+ height: 500px;
+ padding: 10px;
+ gap: 40px;
+ align-content: center;
+  }
+   .griditem1, .griditem2, .griditem3{
+     background-size: fixed;
+     color: blanchedalmond;
+     border: 1px solid black;
+     padding: 30px;
+     text-align: center;
+     font-size: 30px;
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    font-size: 12px;
+ }
